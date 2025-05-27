@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger Website</title>
+  <!-- Linking Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- Linking Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">🍔 <span class="company-name" style="color: whitesmoke;">Burger House</span></h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./about-us.html" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="./menu.html" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="./testimonials.html" class="nav-link">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a href="./gallery.html" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contact-us.html" class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <main>
+    <!--Testimonials section-->
+    <section class="testimonials-section" id="testimonials">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="section-content">
+        <div class="slider-container swiper">
+          <div class="slider-wrapper">
+            <ul class="testimonials-list swiper-wrapper">
+              <li class="testimonial swiper-slide">
+                <img src="images/user-1.jpg" alt="User" class="user-image">
+                <h3 class="name">Karabo Mothusi</h3>
+                <i class="feedback">"Loved the burger! Juicy, perfectly balanced, and packed with flavor. Definitely
+                  ordering again!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-2.jpg" alt="User" class="user-image">
+                <h3 class="name">Mary Motse</h3>
+                <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-3.jpg" alt="User" class="user-image">
+                <h3 class="name">Katlego Moatlhodi</h3>
+                <i class="feedback">"Fantastic burger flavor — fresh, juicy, and loaded with taste. Super quick service
+                  too!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-4.jpg" alt="User" class="user-image">
+                <h3 class="name">Teto Modise</h3>
+                <i class="feedback">"Great quality! Fresh, tasty burgers and fast delivery. Definitely recommend!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-5.jpg" alt="User" class="user-image">
+                <h3 class="name">Lebopo Molefe</h3>
+                <i class="feedback">"Best decaf I've tried! Smooth and flavorful. Arrived promptly."</i>
+              </li>
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button
+            swiper-button-prev"></div>
+            <div class="swiper-slide-button
+            swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+      <div class="section-content">
+        <p class="copyright-text">© 2025 <span class="company-name" style="color: whitesmoke;">Burger House</span></p>
+
+        <div class="social-link-list">
+          <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <p class="policy-text">
+          <a href="#" class="policy-link">Privacy policy</a>
+          <span class="separator">.</span>
+          <a href="#" class="policy-link">Refund policy</a>
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Linking Swiper script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Linking Custom script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
